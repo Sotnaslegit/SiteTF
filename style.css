@@ -1,0 +1,132 @@
+/*CORES:
+#04000B
+#0A2349
+#FED62D
+#F3EEFF*/
+
+@font-face {
+    font-family: Jaldi-Bold;
+    src: url(complements/fonts/Jaldi/Jaldi-Bold.ttf);
+}
+
+@font-face {
+    font-family: Jaldi-Regular;
+    src: url(complements/fonts/Jaldi/Jaldi-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Black;
+    src: url(complements/fonts/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto-BlackItalic;
+    src: url(complements/fonts/Roboto/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(complements/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto-BoldItalic;
+    src: url(complements/fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(complements/fonts/Roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(complements/fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: Roboto-LightItalic;
+    src: url(complements/fonts/Roboto/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(complements/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-MediumItalic;
+    src: url(complements/fonts/Roboto/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(complements/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(complements/fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: ThinItalic;
+    src: url(complements/fonts/Roboto/Roboto-ThinItalic.ttf);
+}
+
+body, html{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#conteiner{
+    background-color: #ff000f;
+    height: 100%;
+
+}
+
+#navbar{
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+
+#navbaresquerda{
+    height: 100%;
+    width: 15%;
+    background-color: #0d244b;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#logo{
+    height: 160%;
+}
+
+#navbarmeio{
+    height: 100%;
+    width: 70%;
+    background-color: #0d244b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Roboto-Regular;
+    color: #f3eeff;
+    font-size: 30px;
+}
+
+#navbardireita{
+    height: 100%;
+    width: 15%;
+    background-color: #0d244b;
+}
+
+#content{
+    height: 90%;
+    width: 100%;
+    background-color: black;
+}
