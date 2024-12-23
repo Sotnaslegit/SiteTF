@@ -129,4 +129,17 @@ body, html{
     height: 90%;
     width: 100%;
     background-color: black;
+    display: flex;
+}
+
+#esquerda-meio{
+    height: 200%;
+    width: 70%;
+    background-color: #0F3671;
+}
+
+#img-eletricista{
+    height: 50%;
+    width: 100% ;
+    filter: blur(2px) opacity(40%);
 }
